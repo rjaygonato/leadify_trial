@@ -1,0 +1,1047 @@
+.desktop-landing-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop-landing-page .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3679px;
+  position: relative;
+}
+
+.desktop-landing-page .section {
+  position: absolute;
+  width: 1440px;
+  height: 409px;
+  top: 3270px;
+  left: 0;
+}
+
+.desktop-landing-page .footer {
+  position: absolute;
+  width: 1440px;
+  height: 318px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.desktop-landing-page .footer-first-section {
+  width: 1442px;
+  height: 318px;
+}
+
+.desktop-landing-page .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 318px;
+  background-image: url(./img/disclaimer-background.svg);
+  background-size: 100% 100%;
+}
+
+.desktop-landing-page .disclaimer-text {
+  position: absolute;
+  width: 1050px;
+  height: 160px;
+  top: 70px;
+  left: 195px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .footer-second {
+  position: absolute;
+  width: 1440px;
+  height: 91px;
+  top: 318px;
+  left: 0;
+  background-image: url(./img/disclaimer-background-1.svg);
+  background-size: 100% 100%;
+}
+
+.desktop-landing-page .SSL-cerificate {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 21px;
+  left: 229px;
+  object-fit: cover;
+}
+
+.desktop-landing-page .disclaimer-second {
+  position: absolute;
+  width: 967px;
+  height: 43px;
+  top: 20px;
+  left: 284px;
+}
+
+.desktop-landing-page .copyright-address {
+  position: absolute;
+  height: 12px;
+  top: 6px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop-landing-page .terms-conditions {
+  position: absolute;
+  width: 244px;
+  height: 18px;
+  top: 0;
+  left: 717px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .text-wrapper {
+  text-decoration: underline;
+}
+
+.desktop-landing-page .span {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+}
+
+.desktop-landing-page .p {
+  position: absolute;
+  width: 291px;
+  height: 19px;
+  top: 24px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .img {
+  position: absolute;
+  width: 1440px;
+  height: 451px;
+  top: 2819px;
+  left: 0;
+}
+
+.desktop-landing-page .section-2 {
+  position: absolute;
+  width: 721px;
+  height: 624px;
+  top: 2070px;
+  left: 367px;
+}
+
+.desktop-landing-page .option {
+  width: 721px;
+  height: 54px;
+  top: 570px;
+  position: absolute;
+  left: 0;
+}
+
+.desktop-landing-page .line {
+  position: absolute;
+  width: 716px;
+  height: 1px;
+  top: 54px;
+  left: 4px;
+  object-fit: cover;
+}
+
+.desktop-landing-page .text-wrapper-2 {
+  position: absolute;
+  height: 29px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+}
+
+.desktop-landing-page .group {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 4px;
+  left: 695px;
+}
+
+.desktop-landing-page .option-2 {
+  width: 719px;
+  height: 52px;
+  top: 492px;
+  position: absolute;
+  left: 0;
+}
+
+.desktop-landing-page .div-wrapper {
+  position: absolute;
+  width: 233px;
+  height: 29px;
+  top: 0;
+  left: 0;
+}
+
+.desktop-landing-page .line-2 {
+  position: absolute;
+  width: 716px;
+  height: 1px;
+  top: 52px;
+  left: 4px;
+  object-fit: cover;
+}
+
+.desktop-landing-page .overlap-group-2 {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  top: 4px;
+  left: 695px;
+}
+
+.desktop-landing-page .line-3 {
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  top: 10px;
+  left: 0;
+}
+
+.desktop-landing-page .line-4 {
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  top: 0;
+  left: 10px;
+}
+
+.desktop-landing-page .option-3 {
+  width: 721px;
+  height: 54px;
+  top: 416px;
+  position: absolute;
+  left: 0;
+}
+
+.desktop-landing-page .line-5 {
+  position: absolute;
+  width: 716px;
+  height: 1px;
+  top: 53px;
+  left: 4px;
+  object-fit: cover;
+}
+
+.desktop-landing-page .line-6 {
+  position: absolute;
+  width: 2px;
+  height: 22px;
+  top: 0;
+  left: 10px;
+}
+
+.desktop-landing-page .option-4 {
+  width: 723px;
+  height: 223px;
+  top: 165px;
+  position: absolute;
+  left: 0;
+}
+
+.desktop-landing-page .divider {
+  position: absolute;
+  width: 716px;
+  height: 1px;
+  top: 222px;
+  left: 4px;
+  object-fit: cover;
+}
+
+.desktop-landing-page .line-7 {
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  top: 15px;
+  left: 698px;
+}
+
+.desktop-landing-page .text-wrapper-3 {
+  position: absolute;
+  width: 603px;
+  height: 142px;
+  top: 59px;
+  left: 3px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #4b4b4b;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .title {
+  position: absolute;
+  width: 583px;
+  height: 92px;
+  top: 0;
+  left: 74px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #252b42;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .overlap {
+  position: absolute;
+  width: 1444px;
+  height: 1860px;
+  top: 85px;
+  left: 0;
+}
+
+.desktop-landing-page .section-3 {
+  position: absolute;
+  width: 1440px;
+  height: 1174px;
+  top: 686px;
+  left: 0;
+  background-color: #f1f1f1;
+}
+
+.desktop-landing-page .title-subheadline {
+  position: absolute;
+  width: 640px;
+  height: 100px;
+  top: 310px;
+  left: 389px;
+}
+
+.desktop-landing-page .subheadline {
+  position: absolute;
+  width: 636px;
+  height: 20px;
+  top: 80px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32.4px;
+  white-space: nowrap;
+}
+
+.desktop-landing-page .text-wrapper-4 {
+  color: #555555;
+}
+
+.desktop-landing-page .text-wrapper-5 {
+  font-weight: 700;
+  color: #252b42;
+}
+
+.desktop-landing-page .title-2 {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #252b42;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: 55px;
+  white-space: nowrap;
+}
+
+.desktop-landing-page .group-2 {
+  position: absolute;
+  width: 1050px;
+  height: 428px;
+  top: 460px;
+  left: 182px;
+}
+
+.desktop-landing-page .step {
+  left: 750px;
+  position: absolute;
+  width: 304px;
+  height: 428px;
+  top: 0;
+}
+
+.desktop-landing-page .overlap-2 {
+  position: relative;
+  width: 300px;
+  height: 428px;
+  border-radius: 10px;
+}
+
+.desktop-landing-page .overlap-group-wrapper {
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  top: 49px;
+  left: 118px;
+}
+
+.desktop-landing-page .overlap-group-3 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #e5ecff;
+  border-radius: 30px;
+}
+
+.desktop-landing-page .text-wrapper-6 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #7b7b7b;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .rectangle {
+  width: 300px;
+  height: 428px;
+  top: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 21px #0000001a;
+  position: absolute;
+  left: 0;
+}
+
+.desktop-landing-page .text-wrapper-7 {
+  position: absolute;
+  width: 221px;
+  top: 200px;
+  left: 39px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #555555;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}
+
+.desktop-landing-page .text-wrapper-8 {
+  width: 166px;
+  top: 144px;
+  left: 67px;
+  font-weight: 600;
+  color: var(--text);
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  line-height: 28px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  text-align: center;
+}
+
+.desktop-landing-page .element {
+  position: absolute;
+  width: 64px;
+  height: 60px;
+  top: 49px;
+  left: 119px;
+}
+
+.desktop-landing-page .overlap-3 {
+  position: relative;
+  width: 62px;
+  height: 60px;
+  background-color: #e5ecff;
+  border-radius: 31.21px/30px;
+}
+
+.desktop-landing-page .text-wrapper-9 {
+  width: 62px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  font-weight: 700;
+  color: #7b7b7b;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .overlap-wrapper {
+  left: 375px;
+  position: absolute;
+  width: 304px;
+  height: 428px;
+  top: 0;
+}
+
+.desktop-landing-page .element-2 {
+  position: absolute;
+  width: 64px;
+  height: 60px;
+  top: 50px;
+  left: 119px;
+}
+
+.desktop-landing-page .step-2 {
+  left: 0;
+  position: absolute;
+  width: 304px;
+  height: 428px;
+  top: 0;
+}
+
+.desktop-landing-page .text-wrapper-10 {
+  position: absolute;
+  width: 69px;
+  top: 144px;
+  left: 116px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--text);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.desktop-landing-page .CTA-button {
+  position: absolute;
+  width: 196px;
+  height: 61px;
+  top: 988px;
+  left: 623px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.desktop-landing-page .overlap-4 {
+  position: relative;
+  width: 194px;
+  height: 61px;
+  border-radius: 56.49px;
+  background: linear-gradient(180deg, rgb(59, 125, 219) 0%, rgb(45.12, 106.28, 193.37) 100%);
+}
+
+.desktop-landing-page .text-wrapper-11 {
+  width: 194px;
+  height: 61px;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  text-align: center;
+}
+
+.desktop-landing-page .section-4 {
+  position: absolute;
+  width: 1444px;
+  height: 792px;
+  top: 0;
+  left: 0;
+}
+
+.desktop-landing-page .overlap-5 {
+  position: relative;
+  width: 1440px;
+  height: 792px;
+}
+
+.desktop-landing-page .rectangle-2 {
+  width: 1440px;
+  height: 686px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.desktop-landing-page .quiz-box {
+  position: absolute;
+  width: 748px;
+  height: 427px;
+  top: 365px;
+  left: 347px;
+}
+
+.desktop-landing-page .overlap-6 {
+  position: relative;
+  width: 746px;
+  height: 427px;
+}
+
+.desktop-landing-page .quiz-box-2 {
+  position: absolute;
+  width: 746px;
+  height: 409px;
+  top: 18px;
+  left: 0;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.desktop-landing-page .safe-and-secure {
+  position: absolute;
+  width: 226px;
+  height: 19px;
+  top: 347px;
+  left: 261px;
+}
+
+.desktop-landing-page .overlap-group-4 {
+  position: relative;
+  width: 224px;
+  height: 19px;
+}
+
+.desktop-landing-page .vector {
+  position: absolute;
+  width: 7px;
+  height: 8px;
+  top: 5px;
+  left: 35px;
+}
+
+.desktop-landing-page .text-wrapper-12 {
+  position: absolute;
+  width: 224px;
+  height: 19px;
+  top: 0;
+  left: 0;
+  font-family: "TT Interfaces-Medium", Helvetica;
+  font-weight: 500;
+  color: #9e9e9e;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .answers {
+  position: absolute;
+  width: 444px;
+  height: 136px;
+  top: 192px;
+  left: 149px;
+}
+
+.desktop-landing-page .answer {
+  width: 218px;
+  top: 73px;
+  left: 226px;
+  position: absolute;
+  height: 63px;
+}
+
+.desktop-landing-page .group-wrapper {
+  height: 63px;
+}
+
+.desktop-landing-page .group-3 {
+  width: 218px;
+  height: 63px;
+}
+
+.desktop-landing-page .overlap-7 {
+  position: relative;
+  width: 220px;
+  height: 63px;
+}
+
+.desktop-landing-page .rectangle-3 {
+  width: 218px;
+  height: 59px;
+  top: 4px;
+  background-color: #c0c0c0;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+}
+
+.desktop-landing-page .group-4 {
+  position: absolute;
+  width: 220px;
+  height: 62px;
+  top: 0;
+  left: 0;
+}
+
+.desktop-landing-page .overlap-group-5 {
+  position: relative;
+  width: 218px;
+  height: 62px;
+  background-color: #3b7ddb;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #d1d1d1;
+}
+
+.desktop-landing-page .text-wrapper-13 {
+  position: absolute;
+  width: 218px;
+  height: 62px;
+  top: -1px;
+  left: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .answer-2 {
+  width: 218px;
+  top: 73px;
+  left: 0;
+  position: absolute;
+  height: 63px;
+}
+
+.desktop-landing-page .group-5 {
+  width: 220px;
+  height: 63px;
+}
+
+.desktop-landing-page .overlap-group-6 {
+  position: relative;
+  width: 218px;
+  height: 63px;
+  background-color: #c0c0c0;
+  border-radius: 5px;
+}
+
+.desktop-landing-page .box {
+  position: absolute;
+  width: 218px;
+  height: 62px;
+  top: 0;
+  left: 0;
+  background-color: #3b7ddb;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #d1d1d1;
+}
+
+.desktop-landing-page .text-wrapper-14 {
+  position: absolute;
+  width: 218px;
+  height: 62px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .answer-3 {
+  width: 218px;
+  top: 0;
+  left: 226px;
+  background-color: #c0c0c0;
+  border-radius: 5px;
+  position: absolute;
+  height: 63px;
+}
+
+.desktop-landing-page .group-6 {
+  width: 220px;
+  height: 62px;
+}
+
+.desktop-landing-page .answer-4 {
+  width: 220px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 63px;
+}
+
+.desktop-landing-page .quiz-title {
+  position: absolute;
+  width: 475px;
+  height: 59px;
+  top: 125px;
+  left: 135px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .progress-bar {
+  position: absolute;
+  width: 335px;
+  height: 27px;
+  top: 79px;
+  left: 205px;
+}
+
+.desktop-landing-page .overlap-8 {
+  position: relative;
+  width: 337px;
+  height: 27px;
+}
+
+.desktop-landing-page .line-8 {
+  position: absolute;
+  width: 307px;
+  height: 1px;
+  top: 13px;
+  left: 14px;
+  background-color: #d9d9d9;
+}
+
+.desktop-landing-page .element-3 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 0;
+  left: 308px;
+}
+
+.desktop-landing-page .overlap-group-7 {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  background-color: #ffffff;
+  border-radius: 13.5px;
+  border: 2px solid;
+  border-color: #cccccc;
+}
+
+.desktop-landing-page .text-wrapper-15 {
+  width: 11px;
+  height: 11px;
+  top: 6px;
+  left: 6px;
+  font-weight: 400;
+  color: #cccccc;
+  font-size: 14px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .element-4 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 0;
+  left: 231px;
+}
+
+.desktop-landing-page .element-5 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 0;
+  left: 154px;
+}
+
+.desktop-landing-page .element-6 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 0;
+  left: 77px;
+}
+
+.desktop-landing-page .element-7 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 0;
+  left: 0;
+}
+
+.desktop-landing-page .overlap-9 {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  background-color: #ffffff;
+  border-radius: 13.5px;
+  border: 2px solid;
+  border-color: #94d82d;
+}
+
+.desktop-landing-page .text-wrapper-16 {
+  width: 11px;
+  height: 11px;
+  top: 6px;
+  left: 6px;
+  font-weight: 400;
+  color: #94d82d;
+  font-size: 14px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .no-impact {
+  position: absolute;
+  width: 319px;
+  height: 36px;
+  top: 0;
+  left: 215px;
+}
+
+.desktop-landing-page .no-impact-on-your-wrapper {
+  position: relative;
+  width: 317px;
+  height: 36px;
+  background-color: #ffffff;
+  border-radius: 52px;
+  border: 1.5px solid;
+  border-color: #000000;
+}
+
+.desktop-landing-page .no-impact-on-your {
+  position: absolute;
+  width: 317px;
+  height: 36px;
+  top: -2px;
+  left: -2px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .text-wrapper-17 {
+  font-weight: 600;
+}
+
+.desktop-landing-page .text-wrapper-18 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.desktop-landing-page .subheadline-2 {
+  position: absolute;
+  width: 513px;
+  height: 34px;
+  top: 279px;
+  left: 465px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .title-3 {
+  position: absolute;
+  width: 879px;
+  height: 161px;
+  top: 100px;
+  left: 280px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-landing-page .section-5 {
+  position: absolute;
+  width: 1440px;
+  height: 85px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.desktop-landing-page .CTA-button-2 {
+  position: absolute;
+  width: 256px;
+  height: 69px;
+  top: 10px;
+  left: 974px;
+}
+
+.desktop-landing-page .logo {
+  position: absolute;
+  width: 269px;
+  height: 49px;
+  top: 22px;
+  left: 199px;
+}
