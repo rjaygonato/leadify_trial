@@ -64,9 +64,9 @@
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-9 text-center">
-          <h1>Are You Eligible To Get Financing For A <br>
-          New or Used Car Of Your Choice?</h1>
-          <h2>Check Eligibility Fast</h2>
+          <h1>Congratulations! (Name)</h1>
+          <p>You conditionaly qualify</p>
+          <p>We now have all the information we need to start connecting you to our appropriate partners. A auto loan specialist is finalising your results and will be in touch.</p>
         </div>
         
       </div>
@@ -88,87 +88,7 @@
   </section><!-- End Hero -->
 
   
-  <div class="">
-      <div class="sectionbox">
-        <div class="overlap">
-         
-          <div class="quiz-box">
-            <div class="overlap-group">
-              <div class="div">
-                <div class="safe-and-secure">
-                  <div class="overlap-group-2">
-                    <img class="vector" src="img/vector.svg" />
-                    <div class="text-wrapper">Confidential, Safe and Secure</div>
-                  </div>
-                </div>
-                <div class="answers">
-                  <div class="answer">
-                    <div class="group">
-                      <div class="overlap-wrapper">
-                        <div class="overlap-2">
-                          <div class="rectangle-2"></div>
-                          <div class="overlap-group-wrapper">
-                            <div class="div-wrapper"><div class="text-wrapper-2">Other</div></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="group-wrapper">
-                    <div class="group-2">
-                      <div class="overlap-group-3">
-                        <div class="div-2"></div>
-                        <div class="text-wrapper-3">Truck</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="answer-2">
-                    <div class="group-3">
-                      <div class="div-wrapper"><div class="text-wrapper-2">SUV</div></div>
-                    </div>
-                  </div>
-                  <div class="answer-3">
-                    <div class="overlap-group-3">
-                      <div class="div-2"></div>
-                      <div class="text-wrapper-3">Car</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <p class="quiz-title">What type of vehicle do you want to purchase?</p>
-              <div class="progress-bar">
-                <div class="overlap-3">
-                  <div class="line"></div>
-                  <div class="element">
-                    <div class="overlap-group-4"><div class="text-wrapper-4">5</div></div>
-                  </div>
-                  <div class="element-2">
-                    <div class="overlap-group-4"><div class="text-wrapper-4">4</div></div>
-                  </div>
-                  <div class="element-3">
-                    <div class="overlap-group-4"><div class="text-wrapper-4">3</div></div>
-                  </div>
-                  <div class="element-4">
-                    <div class="overlap-group-4"><div class="text-wrapper-4">2</div></div>
-                  </div>
-                  <div class="element-5">
-                    <div class="overlap-4"><div class="text-wrapper-5">1</div></div>
-                  </div>
-                </div>
-              </div>
-              <div class="no-impact">
-                <div class="no-impact-on-your-wrapper">
-                  <p class="no-impact-on-your">
-                    <span class="span">No Impact</span> <span class="text-wrapper-6"> on your credit score</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-         
-        </div>
-      </div>
-    </div>
+  
   <main id="main">
 
     <!-- ======= Services Section ======= -->
@@ -177,7 +97,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>How It Works</h2>
+          <h2>What Happens Next</h2>
           <p>A more faster and simple approach to a auto loan</p>
         </div>
 
