@@ -2477,3 +2477,6 @@ section {
 .radio-item:checked + .radio-label {
   background-color: #0056b3;
 }
+.center {
+  width: 70%;
+}

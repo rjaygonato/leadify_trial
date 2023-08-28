@@ -47,12 +47,14 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <a href="index.html" class="logo"><img src="./assets/img/logo_fundmycar.svg" alt="" class="img-fluid"></a>
 
-      <nav id="navbar" class="navbar">
+      <!-- <nav id="navbar" class="navbar">
         <ul>
+         
           <li><a class="getstarted scrollto" href="#about">Check Eligibility</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav> -->
+      <!-- .navbar -->
       
     </div>
   </header><!-- End Header -->
@@ -64,10 +66,9 @@
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-9 text-center">
           <h1>Congratulations! (Name)</h1>
-          <p>You conditionaly qualify</p>
-          <p>We now have all the information we need to start connecting you to our appropriate partners. A auto loan specialist is finalising your results and will be in touch.</p>
+          <p style="color: white;">You conditionally <b>qualify</b></p><br>
+          <p style="color: white;">We now have all the information we need to start connecting you to our appropriate partners. A auto loan specialist is finalising your results and will be in touch.</p>
         </div>
-        
       </div>
       
       
@@ -76,12 +77,7 @@
       </div> -->
 
       <div class="row icon-boxes">
-        <br>
-        <!-- TODO -->
-        <!-- Questioner here -->
-        <br>
       </div>
-      
     </div>
     
   </section><!-- End Hero -->
@@ -97,7 +93,7 @@
 
         <div class="section-title">
           <h2>What Happens Next</h2>
-          <p>A more faster and simple approach to a auto loan</p>
+          <!-- <p>A more faster and <b>simple approach</b> to a auto loan</p> -->
         </div>
 
         <div class="row">
@@ -108,7 +104,7 @@
                 1
               </div>
               <h4><a href="">Apply</a></h4>
-              <p>Take the quiz from your phone, tablet or desktop to find out if your eligible for a auto loan from one of our approved partners.</p>
+              <p>We have matched you with a trusted partner in your area that will be in touch to discuss your information.</p>
             </div>
           </div>
 
@@ -117,8 +113,8 @@
               <div class="icon">
                 2
               </div>
-              <h4><a href="">Sed Perspiciatis</a></h4>
-              <p>You will receive a consultation to assess your auto loan application with zero obligations to proceed.</p>
+              <h4><a href="">Receive A Call</a></h4>
+              <p>You will receive a call from an auto loan specialist to assess your application and confirm your details with zero obligations to proceed.</p>
             </div>
           </div>
 
@@ -127,8 +123,8 @@
               <div class="icon">
                 3
               </div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Compare and review your options easily with the help of a auto loan specialists.</p>
+              <h4><a href="">Get Approved</a></h4>
+              <p>Approve your auto loan and shop for a new or used car with confidence.</p>
             </div>
           </div>
 
@@ -136,73 +132,6 @@
 
       </div>
     </section><!-- End Sevices Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg" style="background: white;">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Frequently Asked <br>Questions</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up">
-               <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">How do car loans work? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                If you do not have the savings to buy one outright, an option you may be considering is taking out a car loan. Fill out our quick 60 second quiz and a specialist will review your application and call you within 1 to 2 business days.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="100">
-               <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How much can I borrow? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                No two situations are the same, so there's really no set amount. The amount you can borrow will depend on your income, the amount you request, your down payment, and the length (or term) of the loan. Once you complete and submit your application, you will better understand the options that are available to you.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-               <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Do I need a guarantor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                Generally, no. But if your income/age does not meet our credit criteria, then you may be required to have a guarantor to stand surety for your loan.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-               <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">When do I have to pay it back? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                You will be able to select the right loan term according to how much you can afford to pay monthly. A longer term loan will cost you more in interest, but you will have lower monthly repayments.
-                </p>
-              </div>
-            </li>
-
-            
-
-          </ul>
-        </div>
-
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-        <div class="text-center">
-          <h3>Ready to Get Started?</h3>
-          <p> Simply complete our 60-second qiuz to find out if you qualify for a <br>auto loan.</p>
-          <a class="getstarted " href="#">Get Started</a>
-        </div>
-      </div>
-    </section><!-- End Cta Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -277,6 +206,65 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+  // Function to show the previous form and hide the current form
+  function showPrevForm(currentFormId, prevFormId) {
+    document.getElementById(currentFormId).style.display = "none";
+    document.getElementById(prevFormId).style.display = "block";
+  }
+
+  // Attach click event listeners to all "Back" buttons
+  document.addEventListener("DOMContentLoaded", function() {
+    const backButtons = document.querySelectorAll(".back_btn");
+    backButtons.forEach(button => {
+      button.addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+        const currentFormId = button.closest(".div").id;
+        const prevFormId = button.getAttribute("href").substring(1); // Remove the "#" from the href
+        showPrevForm(currentFormId, prevFormId);
+      });
+    });
+
+    // Ensure only one radio button can be selected in each group
+    const radioGroups = document.querySelectorAll('input[type="radio"][name="vehicleType"]');
+    radioGroups.forEach(radio => {
+      radio.addEventListener("change", function() {
+        radioGroups.forEach(groupRadio => {
+          groupRadio.checked = false;
+        });
+        this.checked = true;
+      });
+    });
+  });
+</script>
+
+<script>
+const formDivs = document.querySelectorAll('.div');
+const nextButtons = document.querySelectorAll('.cust_btn');
+
+let currentFormIndex = 0;
+
+function showForm(index) {
+  formDivs.forEach((formDiv, idx) => {
+    if (idx === index) {
+      formDiv.style.display = 'block';
+    } else {
+      formDiv.style.display = 'none';
+    }
+  });
+}
+
+showForm(currentFormIndex);
+
+nextButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    currentFormIndex = index + 1;
+    showForm(currentFormIndex);
+  });
+});
+</script>
+
 
 </body>
 
