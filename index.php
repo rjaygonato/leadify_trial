@@ -91,25 +91,28 @@
         <div class="overlap">
           <div class="quiz-box">
             <div class="overlap-group">
-            <form id="quizForm" class="" method="">
+            <form id="quizForm" class="" method="post">
               <div class="div" id="nextform1">
                 <div class="quizform1">
                   <p class="quiz-title">What type of vehicle do you want to purchase?</p>
                   <div class="answers">
                     <div class="answer-3">
                       <div class="overlap-group-3">
-                        <a class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" alt="Car" name="Car">Car</a>
+                        <input type="radio" class="radio-item" id="option1" data-next-form="nextform2" name="vehicleType" value="Option 1">
+                        <label class="radio-label" for="option1">Car</label>
                       </div> 
                     </div>
                     <div class="answer-2">
                       <div class="group-3">
-                        <a class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" alt="Truck" name="SUV">SUV</a>
+                        <input type="radio" class="radio-item" id="option2" name="vehicleType" value="Option 2">
+                        <label class="radio-label" for="option2">SUV</label>
                       </div>
                     </div>
                     <div class="group-wrapper">
                       <div class="group-2">
                         <div class="overlap-group-3">
-                          <a class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" alt="Truck" name="Truck">Truck</a>
+                          <input type="radio" class="radio-item" id="option3" name="vehicleType" value="Option 3">
+                          <label class="radio-label" for="option3">Truck</label>
                         </div>
                       </div>
                     </div>
@@ -119,12 +122,15 @@
                           <div class="overlap-2">
                             <div class="rectangle-2"></div>
                               <div class="overlap-group-wrapper">
-                                <a class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" alt="Truck" name="Others">Others</a>
+                                <input type="radio" class="radio-item" id="option4" name="vehicleType" value="Option 4">
+                                <label class="radio-label" for="option4">Others</label>
                               </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                    <!-- Add the back button for the first div -->
+                    <!-- <a href="#" class="btn btn-secondary btn-lg back_btn">Back</a> -->
                   </div>
                 </div>
 
@@ -163,6 +169,7 @@
                     <div class="answer-3">
                       <div class="overlap-group-3">
                         <select class="form-control" style="width: 450px;" name="credit_standing">
+                          <option value="" disabled>--Select--</option>
                           <option value="Excellent">Excellent</option>
                           <option value="Great">Great</option>
                           <option value="Good">Good</option>
@@ -367,7 +374,7 @@
              
                 
                 <div class="safe-and-secure">
-                <button class="btn btn-primary btn-lg" style="width: 200px;" name="see_res">See Results</button>
+                <button class="btn btn-primary btn-lg" style="width: 200px;" name="see_res" type="submit">See Results</button>
                   <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p><br>
                 </div>
 
@@ -599,20 +606,32 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-  // Function to show the next form and hide the current form
-  function showNextForm(currentFormId, nextFormId) {
+  // Function to show the previous form and hide the current form
+  function showPrevForm(currentFormId, prevFormId) {
     document.getElementById(currentFormId).style.display = "none";
-    document.getElementById(nextFormId).style.display = "block";
+    document.getElementById(prevFormId).style.display = "block";
   }
 
-  // Attach click event listeners to all answer buttons
+  // Attach click event listeners to all "Back" buttons
   document.addEventListener("DOMContentLoaded", function() {
-    const answerButtons = document.querySelectorAll(".cust_btn");
-    answerButtons.forEach(button => {
-      button.addEventListener("click", function() {
+    const backButtons = document.querySelectorAll(".back_btn");
+    backButtons.forEach(button => {
+      button.addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default link behavior
         const currentFormId = button.closest(".div").id;
-        const nextFormId = button.getAttribute("data-next-form");
-        showNextForm(currentFormId, nextFormId);
+        const prevFormId = button.getAttribute("href").substring(1); // Remove the "#" from the href
+        showPrevForm(currentFormId, prevFormId);
+      });
+    });
+
+    // Ensure only one radio button can be selected in each group
+    const radioGroups = document.querySelectorAll('input[type="radio"][name="vehicleType"]');
+    radioGroups.forEach(radio => {
+      radio.addEventListener("change", function() {
+        radioGroups.forEach(groupRadio => {
+          groupRadio.checked = false;
+        });
+        this.checked = true;
       });
     });
   });
