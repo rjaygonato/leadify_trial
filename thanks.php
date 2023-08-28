@@ -1,3 +1,6 @@
+<?php
+ $first_name = $_GET["first_name"];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +68,7 @@
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-9 text-center">
-          <h1>Congratulations! (Name)</h1>
+          <h1>Congratulations! <?php echo $_GET["first_name"]; ?> <?php echo $_GET["last_name"]; ?></h1>
           <p style="color: white;">You conditionally <b>qualify</b></p><br>
           <p style="color: white;">We now have all the information we need to start connecting you to our appropriate partners. A auto loan specialist is finalising your results and will be in touch.</p>
         </div>

@@ -91,7 +91,7 @@
         <div class="overlap">
           <div class="quiz-box">
             <div class="overlap-group">
-            <form id="quizForm" action="" method="post">
+            <form id="quizForm" action="result_process.php" method="GET">
               <div class="div" id="nextform1" style="height: 440px;">
                 <div class="quizform1">
                   <p class="quiz-title">What type of vehicle do you want to purchase?</p>
@@ -228,7 +228,7 @@
                   <div class="answers">
                     <div class="answer-3">
                       <div class="overlap-group-3">
-                        <input type="date" class="form-control" style="width: 450px;" name="dob">
+                        <input type="date" class="form-control" style="width: 450px;" name="age">
                       </div> 
                     </div>
                     
