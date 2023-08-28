@@ -91,7 +91,7 @@
         <div class="overlap">
           <div class="quiz-box">
             <div class="overlap-group">
-            <form id="quizForm" class="" method="post">
+            <form id="quizForm" action="" method="post">
               <div class="div" id="nextform1" style="height: 440px;">
                 <div class="quizform1">
                   <p class="quiz-title">What type of vehicle do you want to purchase?</p>
@@ -193,7 +193,7 @@
                 </div>
 
                 <div class="safe-and-secure">
-                  <button class="btn btn-default cust_btn" id="nextButton2" type="button">Next</button><br><br>
+                  <button class="btn btn-primary cust_btn" id="nextButton2" type="button">Next</button><br><br>
                   <div class="overlap-group-2">
                     <img class="vector" src="img/vector.svg" />
                     <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p>
@@ -244,7 +244,7 @@
                 </div>
 
                 <div class="safe-and-secure">
-                <button class="btn btn-default cust_btn" id="nextButton3" type="button">Next</button><br><br>
+                <button class="btn btn-primary cust_btn" id="nextButton3" type="button">Next</button><br><br>
                   <div class="overlap-group-2">
                     <img class="vector" src="img/vector.svg" />
                     <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p>
@@ -311,7 +311,7 @@
              
                 
                 <div class="safe-and-secure">
-                <button class="btn btn-default cust_btn" id="nextButton4" type="button">Next</button><br><br>
+                <button class="btn btn-primary cust_btn" id="nextButton4" type="button">Next</button><br><br>
                   <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p><br>
                 </div>
 
