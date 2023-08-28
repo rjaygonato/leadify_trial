@@ -2433,7 +2433,7 @@ section {
 }
 .cust_btn {
   width: 220px;
-  height: 50px;
+  height: 40px;
   text-align: center;
   box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 40%);
   border-radius: 4px;
@@ -2463,9 +2463,9 @@ section {
 
 .radio-label {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: white;
+  padding: 15px 10px;
+  background-color: #0c84fb;
+  color: #f8f9fa;
   border: none;
   cursor: pointer;
   border-radius: 5px;

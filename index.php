@@ -86,13 +86,13 @@
   </section><!-- End Hero -->
 
   
-  <div class="">
+  <div class="" data-aos-delay="500">
       <div class="sectionbox">
         <div class="overlap">
           <div class="quiz-box">
             <div class="overlap-group">
             <form id="quizForm" class="" method="post">
-              <div class="div" id="nextform1">
+              <div class="div" id="nextform1" style="height: 440px;">
                 <div class="quizform1">
                   <p class="quiz-title">What type of vehicle do you want to purchase?</p>
                   <div class="answers">
@@ -135,9 +135,10 @@
                 </div>
 
                 <div class="safe-and-secure">
+                  <button class="btn btn-default cust_btn" id="nextButton1" type="button">Next</button><br><br>
                   <div class="overlap-group-2">
                     <img class="vector" src="img/vector.svg" />
-                    <div class="text-wrapper">Confidential, Safe and Secure</div>
+                    <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p>
                   </div>
                 </div>
                 <div class="progress-bar">
@@ -162,7 +163,7 @@
                 </div>
               </div>
 
-              <div class="div" id="nextform2" style="display: none;">
+              <div class="div" id="nextform2" style="display: block;height: 440px;">
                 <div class="quizform1">
                   <p class="quiz-title">What best represents your credit?</p>
                   <div class="answers">
@@ -180,21 +181,22 @@
                       </div> 
                     </div>
                     
-                    <div class="group-wrapper">
+                    <!-- <div class="group-wrapper">
                       <div class="group-2">
                         <div class="overlap-group-3">
-                          <button class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" style="width: 450px;">Next</button>
+                          <button class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" style="width: 450px;" >Next</button>
                         </div>
                       </div>
                     </div>
-                    
+                     -->
                   </div>
                 </div>
 
                 <div class="safe-and-secure">
+                  <button class="btn btn-default cust_btn" id="nextButton2" type="button">Next</button><br><br>
                   <div class="overlap-group-2">
                     <img class="vector" src="img/vector.svg" />
-                    <div class="text-wrapper">Confidential, Safe and Secure</div>
+                    <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p>
                   </div>
                 </div>
                 <div class="progress-bar" >
@@ -220,7 +222,7 @@
                 </div>
               </div>
 
-              <div class="div" id="nextform3" style="display: none;">
+              <div class="div" id="nextform3" style="display: block;height: 440px;">
                 <div class="quizform1">
                   <p class="quiz-title">What is your date of birth?</p>
                   <div class="answers">
@@ -230,21 +232,22 @@
                       </div> 
                     </div>
                     
-                    <div class="group-wrapper">
+                    <!-- <div class="group-wrapper">
                       <div class="group-2">
                         <div class="overlap-group-3">
                           <button class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" style="width: 450px;">Next</button>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     
                   </div>
                 </div>
 
                 <div class="safe-and-secure">
+                <button class="btn btn-default cust_btn" id="nextButton3" type="button">Next</button><br><br>
                   <div class="overlap-group-2">
                     <img class="vector" src="img/vector.svg" />
-                    <div class="text-wrapper">Confidential, Safe and Secure</div>
+                    <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p>
                   </div>
                 </div>
                 <div class="progress-bar" >
@@ -269,7 +272,7 @@
                 </div>
               </div>
 
-              <div class="div" id="nextform4" style="display: none; height: 430px !important">
+              <div class="div" id="nextform4" style="display: none; height: 440px !important">
                 <div class="quizform1">
                   <p class="quiz-title">What is your address?</p>
                   <div class="answers">
@@ -308,7 +311,7 @@
              
                 
                 <div class="safe-and-secure">
-                <button class="btn btn-primary btn-lg" data-next-form="nextform2" style="width: 200px;">Next</button>
+                <button class="btn btn-default cust_btn" id="nextButton4" type="button">Next</button><br><br>
                   <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p><br>
                 </div>
 
@@ -335,7 +338,7 @@
                 </div>
               </div>
 
-              <div class="div" id="nextform5" style="display: none; height: 430px !important">
+              <div class="div" id="nextform5" style="display: none; height: 440px !important">
                 <div class="quizform1">
                   <p class="quiz-title">Please Fill Out Information Below so You Can Receive Your Results</p>
                   <div class="answers">
@@ -374,7 +377,7 @@
              
                 
                 <div class="safe-and-secure">
-                <button class="btn btn-primary btn-lg" style="width: 200px;" name="see_res" type="submit">See Results</button>
+                <button class="btn btn-primary " style="width: 200px;" name="see_res" type="submit">See Results</button>
                   <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p><br>
                 </div>
 
@@ -635,6 +638,32 @@
       });
     });
   });
+</script>
+
+<script>
+const formDivs = document.querySelectorAll('.div');
+const nextButtons = document.querySelectorAll('.cust_btn');
+
+let currentFormIndex = 0;
+
+function showForm(index) {
+  formDivs.forEach((formDiv, idx) => {
+    if (idx === index) {
+      formDiv.style.display = 'block';
+    } else {
+      formDiv.style.display = 'none';
+    }
+  });
+}
+
+showForm(currentFormIndex);
+
+nextButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    currentFormIndex = index + 1;
+    showForm(currentFormIndex);
+  });
+});
 </script>
 
 
