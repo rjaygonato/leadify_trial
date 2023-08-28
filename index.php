@@ -68,7 +68,6 @@
           New or Used Car Of Your Choice?</h1>
           <h2>Check Eligibility Fast</h2>
         </div>
-        
       </div>
       
       
@@ -82,7 +81,6 @@
         <!-- Questioner here -->
         <br>
       </div>
-      
     </div>
     
   </section><!-- End Hero -->
@@ -91,71 +89,146 @@
   <div class="">
       <div class="sectionbox">
         <div class="overlap">
-         
           <div class="quiz-box">
             <div class="overlap-group">
-              <div class="div">
+              
+              <div class="div" style="display: none;">
+                <div class="quizform1">
+                  <p class="quiz-title">What type of vehicle do you want to purchase?</p>
+                  <div class="answers">
+                    <div class="answer-3">
+                      <div class="overlap-group-3">
+                        <!-- <div class="div-2"></div> -->
+                        <!-- <div class="text-wrapper-3">Car</div> -->
+                        <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Car">Car</a>
+                      </div> 
+                    </div>
+                    <div class="answer-2">
+                      <div class="group-3">
+                        <!-- <div class="div-wrapper">
+                          <div class="text-wrapper-2">SUV</div>
+                        </div> -->
+                        <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Truck">SUV</a>
+                      </div>
+                    </div>
+                    <div class="group-wrapper">
+                      <div class="group-2">
+                        <div class="overlap-group-3">
+                          <!-- <div class="div-2"></div>
+                          <div class="text-wrapper-3">Truck</div> -->
+                          <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Truck">Truck</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="answer">
+                      <div class="group">
+                        <div class="overlap-wrapper">
+                          <div class="overlap-2">
+                            <div class="rectangle-2"></div>
+                              <div class="overlap-group-wrapper">
+                                <!-- <div class="div-wrapper">
+                                  <div class="text-wrapper-2">Other</div>
+                                </div> -->
+                                <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Truck">Truck</a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="safe-and-secure">
                   <div class="overlap-group-2">
                     <img class="vector" src="img/vector.svg" />
                     <div class="text-wrapper">Confidential, Safe and Secure</div>
                   </div>
                 </div>
-                <div class="answers">
-                  <div class="answer">
-                    <div class="group">
-                      <div class="overlap-wrapper">
-                        <div class="overlap-2">
-                          <div class="rectangle-2"></div>
-                          <div class="overlap-group-wrapper">
-                            <div class="div-wrapper"><div class="text-wrapper-2">Other</div></div>
-                          </div>
+                <div class="progress-bar">
+                  <div class="overlap-3">
+                    <div class="line"></div>
+                    <div class="element">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">5</div></div>
+                    </div>
+                    <div class="element-2">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">4</div></div>
+                    </div>
+                    <div class="element-3">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">3</div></div>
+                    </div>
+                    <div class="element-4">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">2</div></div>
+                    </div>
+                    <div class="element-5">
+                      <div class="overlap-4 active"><div class="text-wrapper-4">1</div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="div" id="nextform" style="display: none;">
+                <div class="quizform1">
+                  <p class="quiz-title">What best represents your credit?</p>
+                  <div class="answers">
+                    <div class="answer-3">
+                      <div class="overlap-group-3">
+                        <!-- <div class="div-2"></div> -->
+                        <!-- <div class="text-wrapper-3">Car</div> -->
+                        <!-- <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Car">Car</a> -->
+                        <select class="form-control" style="width: 450px;">
+                          <option>Excellent</option>
+                          <option>Great</option>
+                          <option>Good</option>
+                          <option>Average</option>
+                          <option>Poor</option>
+                          <option>Terrible</option>
+                        </select>
+                      </div> 
+                    </div>
+                    
+                    <div class="group-wrapper">
+                      <div class="group-2">
+                        <div class="overlap-group-3">
+                          <!-- <div class="div-2"></div>
+                          <div class="text-wrapper-3">Truck</div> -->
+                          <!-- <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Truck">Truck</a> -->
+                          <button class="btn btn-primary btn-lg cust_btn" style="width: 450px;">Next</button>
                         </div>
                       </div>
                     </div>
+                    
                   </div>
-                  <div class="group-wrapper">
-                    <div class="group-2">
-                      <div class="overlap-group-3">
-                        <div class="div-2"></div>
-                        <div class="text-wrapper-3">Truck</div>
-                      </div>
+                </div>
+
+                <div class="safe-and-secure">
+                  <div class="overlap-group-2">
+                    <img class="vector" src="img/vector.svg" />
+                    <div class="text-wrapper">Confidential, Safe and Secure</div>
+                  </div>
+                </div>
+                <div class="progress-bar" style="display: none;">
+                  <div class="overlap-3">
+                    <div class="line"></div>
+                    <div class="element">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">5</div></div>
                     </div>
-                  </div>
-                  <div class="answer-2">
-                    <div class="group-3">
-                      <div class="div-wrapper"><div class="text-wrapper-2">SUV</div></div>
+                    <div class="element-2">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">4</div></div>
                     </div>
-                  </div>
-                  <div class="answer-3">
-                    <div class="overlap-group-3">
-                      <div class="div-2"></div>
-                      <div class="text-wrapper-3">Car</div>
+                    <div class="element-3">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">3</div></div>
+                    </div>
+                    <div class="element-4">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">2</div></div>
+                    </div>
+                    <div class="element-5">
+                      <!-- <div class="overlap-4"><div class="text-wrapper-5 text-wrapper-4">1</div></div> -->
+                      <div class="overlap-4"><div class="text-wrapper-4 ">1</div></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <p class="quiz-title">What type of vehicle do you want to purchase?</p>
-              <div class="progress-bar">
-                <div class="overlap-3">
-                  <div class="line"></div>
-                  <div class="element">
-                    <div class="overlap-group-4"><div class="text-wrapper-4">5</div></div>
-                  </div>
-                  <div class="element-2">
-                    <div class="overlap-group-4"><div class="text-wrapper-4">4</div></div>
-                  </div>
-                  <div class="element-3">
-                    <div class="overlap-group-4"><div class="text-wrapper-4">3</div></div>
-                  </div>
-                  <div class="element-4">
-                    <div class="overlap-group-4"><div class="text-wrapper-4">2</div></div>
-                  </div>
-                  <div class="element-5">
-                    <div class="overlap-4"><div class="text-wrapper-5">1</div></div>
-                  </div>
-                </div>
-              </div>
+              
               <div class="no-impact">
                 <div class="no-impact-on-your-wrapper">
                   <p class="no-impact-on-your">
@@ -178,7 +251,7 @@
 
         <div class="section-title">
           <h2>How It Works</h2>
-          <p>A more faster and simple approach to a auto loan</p>
+          <p>A more faster and <b>simple approach</b> to a auto loan</p>
         </div>
 
         <div class="row">
@@ -198,8 +271,8 @@
               <div class="icon">
                 2
               </div>
-              <h4><a href="">Sed Perspiciatis</a></h4>
-              <p>You will receive a consultation to assess your auto loan application with zero obligations to proceed.</p>
+              <h4><a href="">Receive A Call</a></h4>
+              <p>YCompare and review your options easily with the help of a auto loan specialists.</p>
             </div>
           </div>
 
@@ -208,7 +281,7 @@
               <div class="icon">
                 3
               </div>
-              <h4><a href="">Magni Dolores</a></h4>
+              <h4><a href="">Get Approved</a></h4>
               <p>Compare and review your options easily with the help of a auto loan specialists.</p>
             </div>
           </div>
