@@ -91,32 +91,25 @@
         <div class="overlap">
           <div class="quiz-box">
             <div class="overlap-group">
-              
-              <div class="div" style="display: none;">
+            <form id="quizForm" class="" method="">
+              <div class="div" id="nextform1">
                 <div class="quizform1">
                   <p class="quiz-title">What type of vehicle do you want to purchase?</p>
                   <div class="answers">
                     <div class="answer-3">
                       <div class="overlap-group-3">
-                        <!-- <div class="div-2"></div> -->
-                        <!-- <div class="text-wrapper-3">Car</div> -->
-                        <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Car">Car</a>
+                        <a class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" alt="Car" name="Car">Car</a>
                       </div> 
                     </div>
                     <div class="answer-2">
                       <div class="group-3">
-                        <!-- <div class="div-wrapper">
-                          <div class="text-wrapper-2">SUV</div>
-                        </div> -->
-                        <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Truck">SUV</a>
+                        <a class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" alt="Truck" name="SUV">SUV</a>
                       </div>
                     </div>
                     <div class="group-wrapper">
                       <div class="group-2">
                         <div class="overlap-group-3">
-                          <!-- <div class="div-2"></div>
-                          <div class="text-wrapper-3">Truck</div> -->
-                          <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Truck">Truck</a>
+                          <a class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" alt="Truck" name="Truck">Truck</a>
                         </div>
                       </div>
                     </div>
@@ -126,10 +119,7 @@
                           <div class="overlap-2">
                             <div class="rectangle-2"></div>
                               <div class="overlap-group-wrapper">
-                                <!-- <div class="div-wrapper">
-                                  <div class="text-wrapper-2">Other</div>
-                                </div> -->
-                                <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Truck">Truck</a>
+                                <a class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" alt="Truck" name="Others">Others</a>
                               </div>
                           </div>
                         </div>
@@ -166,22 +156,19 @@
                 </div>
               </div>
 
-              <div class="div" id="nextform" style="display: none;">
+              <div class="div" id="nextform2" style="display: none;">
                 <div class="quizform1">
                   <p class="quiz-title">What best represents your credit?</p>
                   <div class="answers">
                     <div class="answer-3">
                       <div class="overlap-group-3">
-                        <!-- <div class="div-2"></div> -->
-                        <!-- <div class="text-wrapper-3">Car</div> -->
-                        <!-- <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Car">Car</a> -->
-                        <select class="form-control" style="width: 450px;">
-                          <option>Excellent</option>
-                          <option>Great</option>
-                          <option>Good</option>
-                          <option>Average</option>
-                          <option>Poor</option>
-                          <option>Terrible</option>
+                        <select class="form-control" style="width: 450px;" name="credit_standing">
+                          <option value="Excellent">Excellent</option>
+                          <option value="Great">Great</option>
+                          <option value="Good">Good</option>
+                          <option value="Average">Average</option>
+                          <option value="Poor">Poor</option>
+                          <option value="Terrible">Terrible</option>
                         </select>
                       </div> 
                     </div>
@@ -189,10 +176,7 @@
                     <div class="group-wrapper">
                       <div class="group-2">
                         <div class="overlap-group-3">
-                          <!-- <div class="div-2"></div>
-                          <div class="text-wrapper-3">Truck</div> -->
-                          <!-- <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Truck">Truck</a> -->
-                          <button class="btn btn-primary btn-lg cust_btn" style="width: 450px;">Next</button>
+                          <button class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" style="width: 450px;">Next</button>
                         </div>
                       </div>
                     </div>
@@ -229,27 +213,20 @@
                 </div>
               </div>
 
-              <div class="div" id="nextform" style="display: none;">
+              <div class="div" id="nextform3" style="display: none;">
                 <div class="quizform1">
                   <p class="quiz-title">What is your date of birth?</p>
                   <div class="answers">
                     <div class="answer-3">
                       <div class="overlap-group-3">
-                        <!-- <div class="div-2"></div> -->
-                        <!-- <div class="text-wrapper-3">Car</div> -->
-                        <!-- <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Car">Car</a> -->
-                        
-                        <input type="date" class="form-control" style="width: 450px;">
+                        <input type="date" class="form-control" style="width: 450px;" name="dob">
                       </div> 
                     </div>
                     
                     <div class="group-wrapper">
                       <div class="group-2">
                         <div class="overlap-group-3">
-                          <!-- <div class="div-2"></div>
-                          <div class="text-wrapper-3">Truck</div> -->
-                          <!-- <a href="text-wrapper-3" class="btn btn-primary btn-lg cust_btn" alt="Truck">Truck</a> -->
-                          <button class="btn btn-primary btn-lg cust_btn" style="width: 450px;">Next</button>
+                          <button class="btn btn-primary btn-lg cust_btn" data-next-form="nextform2" style="width: 450px;">Next</button>
                         </div>
                       </div>
                     </div>
@@ -279,38 +256,30 @@
                       <div class="overlap-group-4 "><div class="text-wrapper-4">2</div></div>
                     </div>
                     <div class="element-5">
-                      <!-- <div class="overlap-4"><div class="text-wrapper-5 text-wrapper-4">1</div></div> -->
                       <div class="overlap-4"><div class="text-wrapper-4 ">1</div></div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="div" id="nextform"  style="display: none; height: 430px !important">
+              <div class="div" id="nextform4" style="display: none; height: 430px !important">
                 <div class="quizform1">
                   <p class="quiz-title">What is your address?</p>
                   <div class="answers">
                     <div class="answer-3">
                       <div class="overlap-group-3">
-                        <!-- <div class="div-2"></div> -->
-                        <!-- <div class="text-wrapper-3">Car</div> -->
-                        <input type="text" class="form-control" style="width: 200px;">
+                        <input type="text" class="form-control" placeholder="Street" style="width: 200px;" name="street">
                       </div> 
                     </div>
                     <div class="answer-2">
                       <div class="group-3">
-                        <!-- <div class="div-wrapper">
-                          <div class="text-wrapper-2">SUV</div>
-                        </div> -->
-                        <input type="text" class="form-control" style="width: 200px;">
+                        <input type="text" class="form-control" placeholder="City" style="width: 200px;" name="city">
                       </div>
                     </div>
                     <div class="group-wrapper">
                       <div class="group-2">
                         <div class="overlap-group-3">
-                          <!-- <div class="div-2"></div>
-                          <div class="text-wrapper-3">Truck</div> -->
-                          <input type="text" class="form-control" style="width: 200px;">
+                          <input type="text" class="form-control" placeholder="Post Code" style="width: 200px;" name="post_code">
                         </div>
                       </div>
                     </div>
@@ -320,10 +289,7 @@
                           <div class="overlap-2">
                             <div class="rectangle-2"></div>
                               <div class="overlap-group-wrapper">
-                                <!-- <div class="div-wrapper">
-                                  <div class="text-wrapper-2">Other</div>
-                                </div> -->
-                                <input type="text" class="form-control" style="width: 200px;">
+                                <input type="text" class="form-control" placeholder="State" style="width: 200px;" name="state">
                               </div>
                           </div>
                         </div>
@@ -332,11 +298,10 @@
                     
                   </div>
                 </div>
-                <div class="btn">
-                  <button class="btn btn-primary btn-lg" style="width: 200px;">Next</button>
-                </div>
+             
                 
                 <div class="safe-and-secure">
+                <button class="btn btn-primary btn-lg" data-next-form="nextform2" style="width: 200px;">Next</button>
                   <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p><br>
                 </div>
 
@@ -362,6 +327,72 @@
                   </div>
                 </div>
               </div>
+
+              <div class="div" id="nextform5" style="display: none; height: 430px !important">
+                <div class="quizform1">
+                  <p class="quiz-title">Please Fill Out Information Below so You Can Receive Your Results</p>
+                  <div class="answers">
+                    <div class="answer-3">
+                      <div class="overlap-group-3">
+                        <input type="text" class="form-control" placeholder="First name" style="width: 200px;" name="first_name">
+                      </div> 
+                    </div>
+                    <div class="answer-2">
+                      <div class="group-3">
+                        <input type="text" class="form-control" placeholder="Last Name" style="width: 200px;" name="last_name">
+                      </div>
+                    </div>
+                    <div class="group-wrapper">
+                      <div class="group-2">
+                        <div class="overlap-group-3">
+                          <input type="text" class="form-control" placeholder="Mobile phone number" style="width: 200px;" name="phone">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="answer">
+                      <div class="group">
+                        <div class="overlap-wrapper">
+                          <div class="overlap-2">
+                            <div class="rectangle-2"></div>
+                              <div class="overlap-group-wrapper">
+                                <input type="text" class="form-control" placeholder="Email address" style="width: 200px;" name="email_address">
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+             
+                
+                <div class="safe-and-secure">
+                <button class="btn btn-primary btn-lg" style="width: 200px;" name="see_res">See Results</button>
+                  <p style="font-size: x-small;text-align: center;padding: 10px;">Confidential, Safe and Secure</p><br>
+                </div>
+
+                <div class="progress-bar" >
+                  <div class="overlap-3">
+                    <div class="line"></div>
+                    <div class="element">
+                      <div class="overlap-group-4 active"><div class="text-wrapper-4">5</div></div>
+                    </div>
+                    <div class="element-2">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">4</div></div>
+                    </div>
+                    <div class="element-3">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">3</div></div>
+                    </div>
+                    <div class="element-4">
+                      <div class="overlap-group-4"><div class="text-wrapper-4">2</div></div>
+                    </div>
+                    <div class="element-5">
+                      <!-- <div class="overlap-4"><div class="text-wrapper-5 text-wrapper-4">1</div></div> -->
+                      <div class="overlap-4"><div class="text-wrapper-4 ">1</div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               
               <div class="no-impact">
                 <div class="no-impact-on-your-wrapper">
@@ -371,6 +402,7 @@
                 </div>
               </div>
             </div>
+          </form>
           </div>
          
         </div>
@@ -565,6 +597,27 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+  // Function to show the next form and hide the current form
+  function showNextForm(currentFormId, nextFormId) {
+    document.getElementById(currentFormId).style.display = "none";
+    document.getElementById(nextFormId).style.display = "block";
+  }
+
+  // Attach click event listeners to all answer buttons
+  document.addEventListener("DOMContentLoaded", function() {
+    const answerButtons = document.querySelectorAll(".cust_btn");
+    answerButtons.forEach(button => {
+      button.addEventListener("click", function() {
+        const currentFormId = button.closest(".div").id;
+        const nextFormId = button.getAttribute("data-next-form");
+        showNextForm(currentFormId, nextFormId);
+      });
+    });
+  });
+</script>
+
 
 </body>
 
